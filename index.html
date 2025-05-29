@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nosotros</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #cfe0f5; /* Azul romántico */
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 40px 20px 10px;
+      color: #4a5a96;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 10%;
+      flex-wrap: wrap;
+    }
+
+    .section:nth-child(even) {
+      flex-direction: row-reverse;
+      background-color: #e6effa; /* tono azul claro para alternar */
+    }
+
+    .image-container, .text-container {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container img,
+    .image-container video {
+      width: 70%;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .text-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .quote {
+      font-size: 1.4em;
+      font-style: italic;
+      color: #5a6cae; /* Azul suave y amoroso */
+      text-align: center;
+      padding: 10px;
+    }
+
+    .closing {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 1.2em;
+      color: #4a5a96;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nuestra Historia</h1>
+
+  <div class="section">
+    <div class="image-container">
+      <img src="nosotrossssssssssssssssss/foto1.jpeg" alt="Nosotros">
+    </div>
+    <div class="text-container">
+      <div class="quote">"Contigo aprendí lo que es el amor verdadero."</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="image-container">
+      <img src="foto2.jpeg" alt="Recuerdo">
+    </div>
+    <div class="text-container">
+      <div class="quote">"Nuestro amor es mi lugar favorito."</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="image-container">
+      <video autoplay loop muted playsinline>
+        <source src="video7.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </div>
+    <div class="text-container">
+      <div class="quote">"Cada día contigo es una nueva aventura."</div>
+    </div>
+  </div>
+
+  <div class="closing">
+    Te amo con todo mi corazón ❤️
+  </div>
+</body>
+</html>
